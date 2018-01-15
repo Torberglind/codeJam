@@ -1,3 +1,6 @@
+# @author Tor Berglind
+# @git https://github.com/Torberglind/
+
 def counting_sheep(n):
     found_digits = []
     for i in xrange(1, 1000):
