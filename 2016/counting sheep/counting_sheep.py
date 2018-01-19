@@ -12,6 +12,6 @@ def counting_sheep(n):
     return 'INSOMNIA'
 
 t=int(raw_input())
-for cas in xrange(1,t+1):
+for c in xrange(1,t+1):
     n=int(raw_input())
-    print "Case #{}: {}".format(cas,counting_sheep(n))
+    print "Case #{}: {}".format(c,counting_sheep(n))
